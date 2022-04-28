@@ -1,0 +1,29 @@
+html{
+    background-color: black;
+}
+}
+h1{
+    color: chocolate;
+    display: block;
+    width: 80%;
+    height: 5%;
+    background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.lessons{
+    color: blue;
+    background-color: crimson;
+    background-color: darkkhaki;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+    width: 80%;
+    height: 100%;
+}
