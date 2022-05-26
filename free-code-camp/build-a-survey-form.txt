@@ -1,0 +1,66 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jpsurvey</title>
+</head>
+
+<body>
+    <h1 id="title">JP-Form</h1>
+    <p id="description">This is the first form I create as part of the Free Code Camp program</p>
+    <form form action=”mailto:juancanales5019@gmail.com” method=”POST” enctype=”multipart/form-data” name=”jp-form” id="survey-form">
+        <section>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="name" required>
+            <label for="email" id="email-label"> E-mail</label>
+            <input type="email" id="email" required placeholder="email">
+            <label for="number" id="number-label">Number</label>
+            <input type="number" id="number" min="0" max="9" placeholder="number">
+        </section>
+        <section>
+            <label for="dropdown">Which one  I should read?</label>
+            <select name="toread" id="dropdown">  
+            <option value="bible"> Bible</option>
+            <option value="coran"> Coran</option>
+            <option value="Vedas"> Vedas</option>
+            <option value="Popolvuh">Popolvuh</option>
+        </select>
+        </section>
+        <section id="language">
+            <legend for="language">What language must I learn?</legend>
+            <input type="radio" name="language" id="hebrew" value="hebrew" checked><label for="hebrew">Hebrew</label>
+            <input type="radio" name="language" id="greek" value="greek" ><label for="greek">Greek</label>
+            <input type="radio" name="language" id="sanskrit" value="sanskrit" ><label for="sanskrit">Sanscrit</label>
+            <input type="radio" name="language" id="arabic" value="arabic" ><label for="arabic">Arabics</label>
+        </section>
+        <section>
+            <legend>From whic language must I learns</legend>
+            <label for="englih">English</label>
+            <input type="checkbox" name="native-language" id="english" value="english" checkeds>
+            <label for="englih">Spanish</label>
+            <input type="checkbox" name="native-language" id="spanish" value="spanish">
+            <label for="englih">French</label>
+            <input type="checkbox" name="native-language" id="french" value="french">
+            <label for="englih">German</label>
+            <input type="checkbox" name="native-language" id="german" value="german">
+        </section>
+        <textarea placeholder="Write your comments here"></textarea>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
